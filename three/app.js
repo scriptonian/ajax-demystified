@@ -1,7 +1,7 @@
 $.getJSON('data.json', function(data) {
     console.log(data);
     var output = '<ul>'; 
-    $.each(data, function(index, element) {
+    $.each(JSON.parse(data), function(index, element) {
       output += '<li>';
         output += '<h2>' + element.name + '</h2>';
         output += '<img src="' + element.avatar + '" width="80" height="80" />';

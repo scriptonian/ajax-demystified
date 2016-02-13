@@ -8,7 +8,7 @@ $('#prog_search').keyup(function(){
     $.getJSON('data.json', function(data) {
         console.log(data.length);
         var output = '<ul class="pList">'; 
-        $.each(data, function(index, element) {
+        $.each(JSON.parse(data), function(index, element) {
             if(element.name.search(finalText) != -1) {
                 output += '<li>';
                     output += '<h2>' + element.name + '</h2>';

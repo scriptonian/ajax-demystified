@@ -18,7 +18,7 @@ $.getJSON('data.json', function(data){
 $.getJSON('data.json', function(data) {
     console.log(data);
     var output = '<ul>'; 
-    $.each(data, function(index, element) {
+    $.each(JSON.parse(data), function(index, element) {
         output += '<li>' + element.name + '</li>';
     });
     output += '</ul>';
