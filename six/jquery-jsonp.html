@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery - JSONP</title>
+  </head>
+  <body>
+  <div id="jsonpContainer"></div>
+   
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+      function dataHandler(data){
+        var output = '<ul>'; 
+        $.each(data, function(index, element) {
+            output += '<li>' + element.name + '</li>';
+        });
+        output += '</ul>';
+        //write the output content into the container div
+        $('#jsonpContainer').html(output); 
+      };
+    </script>
+    <script src="jquery-jsonp.js"></script>
+  </body>
+</html>

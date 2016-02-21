@@ -1,0 +1,38 @@
+dataHandler([
+    {
+        "name": "I-am Konstantin",
+        "avatar": "https://www.sparklabs.com/forum/styles/comboot/theme/images/default_avatar.jpg",
+        "occupation": "Web Developer",
+        "short_bio":"This is my life"
+    },
+    {
+        "name": "Samuel Chibuike",
+        "avatar": "https://z-m-scontent-ams3-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/fr/cp0/e15/q65/12631350_1078435062188541_399396689336014588_n.jpg?efg=eyJpIjoidCJ9&_nc_ad=z-m&oh=43ea3fa415c684fa62ec8a4ff4d446cd&oe=5722FAD1",
+        "occupation": "WEB DEVELOPER",
+        "short_bio":"My name is Samuel Chibuike and I'm the fastest Programmer alive."
+    },
+    {
+      "name": "Lawrence Logoh ",
+      "avatar": "https://www.sparklabs.com/forum/styles/comboot/theme/images/default_avatar.jpg",
+      "occupation": "Web Designer",
+      "short_bio":"I'm a little younger than most web designers but I'm pretty good at what I do "
+    },
+    {
+      "name": "Dongkey Kong",
+      "avatar": "http://rlv.zcache.com/code_monkey_sticker-r876ea1ed486142b2a5ea82bd41f9040c_v9i1a_1024.jpg?rlvnet=1",
+      "occupation": "Code Conductor",
+      "short_bio":"Having fun causing mayhem in the world of source code."
+    },
+    {
+        "name":"nana asare-Baffour",
+        "avatar": "https://www.sparklabs.com/forum/styles/comboot/theme/images/default_avatar.jpg",
+        "occupation": "database administrator",
+        "short_bio": "I'm an administrator with just a little knowledge on database development"
+    },
+    {
+        "name": "Peter Sonny Fraikue",
+        "avatar": "https://www.sparklabs.com/forum/styles/comboot/theme/images/default_avatar.jpg",
+        "occupation": "Frontend Dev",
+        "short_bio":"I love to code"
+    }
+]);
