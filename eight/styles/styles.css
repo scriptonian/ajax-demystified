@@ -1,0 +1,47 @@
+body {
+    margin: 20px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper form {
+    width: 206px;
+    margin: 0 auto;
+}
+
+.wrapper .submit {
+    text-align: right;
+    padding: 10px;
+}
+
+.wrapper .errorBox {
+    text-align: center;
+}
+
+.errorBox {
+    color: red;
+}
+
+.user_display {
+  background: #ccc;
+  padding: 0;
+  margin: 0;
+}
+
+.user_display div {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.user_display .result_name {
+  width: 300px;
+}
+
+.user_display .result_language {
+  width: 120px;
+}
